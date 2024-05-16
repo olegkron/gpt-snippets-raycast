@@ -23,5 +23,5 @@ MIT
 # Author
 
 - [Oleg Kron](https://github.com/olegkron)
-- [Portfolio](https://okron.cc
+- [Portfolio](https://okron.cc)
 - [Twitter](https://twitter.com/olegkron)
