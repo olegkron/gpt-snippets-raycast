@@ -9,19 +9,18 @@
 
 type ExtensionPreferences = {
   /** OpenAI API Token - Enter your API token */
-  "apiToken": string
-}
+  apiToken: string;
+};
 
 /** Preferences accessible in all the extension's commands */
-declare type Preferences = ExtensionPreferences
+declare type Preferences = ExtensionPreferences;
 
 declare namespace Preferences {
   /** Preferences accessible in the `index` command */
-  export type Index = ExtensionPreferences & {}
+  export type Index = ExtensionPreferences & {};
 }
 
 declare namespace Arguments {
   /** Arguments passed to the `index` command */
-  export type Index = {}
+  export type Index = {};
 }
-
